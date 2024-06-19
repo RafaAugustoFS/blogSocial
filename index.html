@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="style2.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>WeBlog</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="img/planeta-terra.png" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header section" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="img/WeBlog__1_-removebg-preview.png" width="209" height="40" alt="logo">
+      </a>
+
+      <div class="wrapper">
+
+        <a href="signin-up.html" class="btn">Sign Up</a>
+        <a href="signin-up.html" class="btn">Login</a>
+
+
+      </div>
+
+    </div>
+  </header>
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" aria-label="home">
+        <div class="container">
+
+          <h1 class="h1 hero-title">
+            <strong class="strong">Welcome to WeBlog.</strong> See and submit your posts
+          </h1>
+
+          <div class="wrapper">
+
+            <p class="newsletter-text">
+              Share your ideas and explore new perspectives on our collaborative blog, where you can view and share your
+              posts!
+            </p>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+      <section class="section recent" aria-label="recent post">
+        <div class="container">
+
+          <div class="title-wrapper">
+
+            <h2 class="h2 section-title">
+              See what are <br><strong class="strong">posted recently</strong>
+            </h2>
+
+          </div>
+
+          <div class="grid-list" id="image">
+          
+          </div>
+
+          <button class="btn" id="button">Load more <script>
+           const button = document.getElementById("button");
+
+
+           button.addEventListener('click', ()=>{
+           alert('Mais Tarde ;D');
+          })
+          </script></button>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer-top section">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="img/WeBlog__1_-removebg-preview.png" width="129" height="40" alt="Blogy logo">
+          </a>
+
+          <p class="footer-text">
+          Sharing Ideas, Building Knowledge
+          </p>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="h5">Social</p>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="logo-facebook"></ion-icon>
+
+            <a href="#" class="footer-link hover:underline">Facebook</a>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="logo-twitter"></ion-icon>
+
+            <a href="#" class="footer-link hover:underline">Twitter</a>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="logo-pinterest"></ion-icon>
+
+            <a href="#" class="footer-link hover:underline">Pinterest</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="h5">About</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Style Guide</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Features</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Contact</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">404</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Privacy Policy</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="h5">Features</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Upcoming Events</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Blog & News</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Features</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">FAQ Question</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Testimonial</a>
+          </li>
+
+        </ul>
+
+        
+      </div>
+
+      <div class="section footer-bottom">
+
+        <p class="copyright">
+          &copy; WeBlog 2022. Published by <a href="#" class="copyright-link hover:underline">livreMercadoDevs</a>.
+        </p>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
